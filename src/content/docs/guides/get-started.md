@@ -17,7 +17,7 @@ import { stringUtils } from '@connormerk/omniutils'
 ```
 Alternatively, if you don't use ESM, you can import the module using CommonJS:
 ```javascript
-    const { stringUtils } = require("@connormerk/omniutils")
+const { stringUtils } = require("@connormerk/omniutils")
 ```
 
 ## Via CDN
