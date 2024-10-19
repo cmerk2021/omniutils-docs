@@ -14,48 +14,75 @@ import { stringUtils } from '@connormerk/omniutils'
 
 ## Functions
 
-### `stringUtils.capitalize(text)`
+### `stringUtils.capitalize(string)`
 Capitalizes the first letter of a string.
 
-**Return value:** The input string with the first letter capitalized
+* **string:** The string to capitalize.
 
-### `stringUtils.decapitalize(text)`
+**Return value:** A new string with the first letter capitalized.
+
+### `stringUtils.decapitalize(string)`
 Decapitalizes the first letter of a string.
 
-**Return value:** The input string with the first letter decapitalized
+* **string:** The string to decapitalize.
 
-### `stringUtils.reverse(text)`
-Reverses the letters in the input string.
+**Return value:** A new string with the first letter decapitalized.
 
-**Return Value:** The input string with the letters reversed
 
-### `stringUtils.truncate(text)`
-Truncates a string to a specified length and adds an ellipsis.
+### `stringUtils.reverse(string)`
+Reverses the characters of a string.
 
-**Return value:** The truncated string.
+* **string:** The string to reverse.
 
-### `stringUtils.slugify(text)`
-Converts a string to a URL-friendly slug.
+**Return value:** A new string with the characters reversed.
 
-**Return value:** URL-Friendly slug
 
-### `stringUtils.camelCase(text)`
+### `stringUtils.truncate(str, length)`
+Truncates a string to a specified length, adding an ellipsis if necessary.
+
+* **str:** The string to truncate.
+* **length:** The maximum length of the truncated string.
+
+**Return value:** The truncated string, with an ellipsis added if the original string is longer than the specified length.
+
+
+### `stringUtils.slugify(str)`
+Converts a string into a URL-friendly slug.
+
+* **str:** The string to convert.
+
+**Return value:** A slugified version of the string, suitable for use in URLs.
+
+
+### `stringUtils.camelCase(str)`
 Converts a string to camel case.
 
-**Return value:** Camel case string
+* **str (string):** The string to convert.
 
-### `stringUtils.kebabCase(text)`
+**Return value:** A new string in camel case, where the first letter of each word is capitalized (except the first word) and words are joined together.
+
+
+### `stringUtils.kebabCase(str)`
 Converts a string to kebab case.
 
-**Return value:** Kebab case string
+* **str (string):** The string to convert.
 
-### `stringUtils.snakeCase(text)`
+**Return value:** A new string in kebab case, where all letters are lowercase and words are separated by hyphens.
+
+
+### `stringUtils.snakeCase(str)`
 Converts a string to snake case.
 
-**Return value:** Snake case string
+* **str (string):** The string to convert.
 
-### `stringUtils.isPalindrome(text)`
+**Return value:** A new string in snake case, where all letters are lowercase and words are separated by underscores.
+
+
+### `stringUtils.isPalindrome(str)`
 Checks if a string is a palindrome.
 
-**Return value:** Boolean - `true`: string is palindrome, `false`: string is not palindrome
+* **str (string):** The string to check.
+
+**Return value:** A boolean indicating whether the string is a palindrome (true if it is, false if not).
+
 

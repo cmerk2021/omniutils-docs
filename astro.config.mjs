@@ -21,6 +21,10 @@ export default defineConfig({
 					label: 'Modules',
 					autogenerate: { directory: 'reference' },
 				},
+				{
+					label: 'Other',
+					autogenerate: { directory: 'other' },
+				},
 			],
 		}),
 	],
