@@ -15,10 +15,9 @@ You can then import OmniUtils modules. For example, if you wanted to import the 
 ```javascript
 import { stringUtils } from '@connormerk/omniutils'
 ```
-Alternatively, if you don't use ESM, you can import the module using CommonJS:
-```javascript
-const { stringUtils } = require("@connormerk/omniutils")
-```
+:::caution[Caution]
+OmniUtils does not currently support CommonJS. We are working on including this in a newer version.
+:::
 
 ## Via CDN
 Alternatively, if you don't use `npm`, you can import OmniUtils via CDN:
