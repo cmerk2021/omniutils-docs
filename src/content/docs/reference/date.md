@@ -1,9 +1,7 @@
 ---
 title: Date & Time Utils
 description: Documentation for the Date & Time Utils OmniUtils module.
-sidebar:
-  # Uses the default variant matching your site’s accent color
-  badge: New
+
 ---
 
 The Date & Time Utils module provides useful functions for operating with and parsing date/time formats.

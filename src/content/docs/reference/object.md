@@ -1,9 +1,7 @@
 ---
 title: Object Utils
 description: Documentation for the Object Utils OmniUtils module.
-sidebar:
-  # Uses the default variant matching your site’s accent color
-  badge: New
+
 ---
 
 The `objectUtils` module provides useful functions for working with and manipulating objects.

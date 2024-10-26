@@ -3,9 +3,12 @@ title: OmniUtils Changelog
 description: OmniUtils changelog
 ---
 
-# 1.1.0 (Latest)
+# 1.3.0 (Latest)
+* Added colorUtils module, dataValidation module, and RunService module.
+
+# 1.2.0
 * Fixed ESM importing bug ("omniutils does not provide an export named 'stringUtils'")
 * Added CommonJS support
 
-# 1.0.0
-* Initial release, including the following modules: stringUtils, arrayUtils, objectUtils, dateUtils, HttpClient
+# 1.1.0
+* Documentation started
