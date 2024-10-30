@@ -3,7 +3,7 @@ title: Reduce your JavaScript size
 description: Built in functions and modules to make your coding life easier
 template: splash
 hero:
-  tagline: 50+ built in functions to make your coding life easier
+  tagline: JavaScript all-in-one utility module
   //image:
     //file: ../../assets/houston.webp
   actions:
@@ -19,20 +19,22 @@ banner:
     Introducing OmniUtils v1.3! Faster, less file size, more modules, and more! More coming soon.
 ---
 
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="Widely Compatible" icon="seti:javascript">
+    These modules are compatible with browser, Node.js, Deno, and other runtimes.
+  </Card>
+  <Card title="Easy-to-read documentation" icon="document">
+    OmniUtils's easy-to-read documentation lets you spend more time coding, less time reading.
+  </Card>
+  <Card title="Easy to use" icon="star">
+    Boost your productivity with our versatile modules and functions, designed to simplify your development process.
+  </Card>
+</CardGrid>
+
 ## Import in one line
 
 ```javascript
 import { stringUtils } from '@connormerk/omniutils'
 ```
-### Modules
-<p>OmniUtils offers many modules. Here is a full list:</p>
-
-* String Utils
-* Array Utils
-* Object Utils
-* Date & Time Utils
-* Built-in HTTP client
-
-And that's just the start. We are always working on adding new features and modules.
-
-To get started, just [read the documentation](/guides/get-started).
