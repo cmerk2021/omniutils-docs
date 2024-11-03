@@ -3,7 +3,10 @@ title: OmniUtils Changelog
 description: OmniUtils changelog
 ---
 
-# 1.3.0 (Latest)
+# 2.0.1 (Latest)
+* Added CommonJS support
+
+# 1.3.0
 * Added colorUtils module, dataValidation module, and RunService module.
 
 # 1.2.0
