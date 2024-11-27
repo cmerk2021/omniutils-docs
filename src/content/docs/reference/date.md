@@ -66,4 +66,21 @@ Subtracts a specified number of days from a given date.
 
 **Return value:** A new Date object representing the date with the specified number of days subtracted.
 
+### `dateUtils.generateDiscordTimestamp(dateObj, type)`
+
+Generates a Discord timestamp string.
+
+* **dateObj (Date object):** The date object to convert to a Discord timestamp.
+* **type (string):** The desired timestamp format. Valid options are:
+  * `t`: Short time format (e.g., 11:20 AM)
+  * `T`: Long time format (e.g., 11:20:30 AM)
+  * `d`: Short date format (e.g., 11/27/2024)
+  * `D`: Long date format (e.g., November 27, 2024)
+  * `f`: Full date and time format (e.g., November 27, 2024 at 11:20 AM)
+  * `F`: Long date with day of week and short time (e.g., Wednesday, November 27, 2024 at 11:20 AM)
+  * `R`: Relative time format (e.g., 2 hours ago)
+
+**Return value:** A string representing the Discord timestamp, which can be used in Discord messages to display formatted dates and times.
+
+
 
