@@ -25,7 +25,7 @@ Alternatively, if you don't use `npm`, you can import OmniUtils via CDN:
 ```javascript
 import { stringUtils } from 'https://cdn.jsdelivr.net/npm/@connormerk/omniutils@latest/index.mjs/+esm';
 ```
-> Note: OmniUtils is no longer browser compatible, as it uses process-specific functions.
+> Note: OmniUtils is browser compatible, use the above code in a modern browser. If any compatibility issues are found, please file an issue on our [GitHub](https://github.com/cmerk2021/omniutils)
 
 
 That's it! You can continue by reading the documentation for each module.
