@@ -11,6 +11,9 @@ export default defineConfig({
             github: 'https://github.com/cmerk2021/omniutils',
         },
         plugins: [starlightThemeRapide()],
+        customCss: [
+            './src/css/globals.css'
+        ],
         sidebar: [
             {
                 label: 'Guides',
