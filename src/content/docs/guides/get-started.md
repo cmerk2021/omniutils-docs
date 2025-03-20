@@ -25,9 +25,7 @@ Alternatively, if you don't use `npm`, you can import OmniUtils via CDN:
 ```javascript
 import { stringUtils } from 'https://cdn.jsdelivr.net/npm/@connormerk/omniutils@latest/index.mjs/+esm';
 ```
-> Note: Some older browsers might not support dynamically bundled modules. If you are having issues, try this instead:
-```javascript
-import { stringUtils } from 'https://cdn.jsdelivr.net/npm/@connormerk/omniutils@latest/index.mjs'
-```
+> Note: OmniUtils is no longer browser compatible, as it uses process-specific functions.
+
 
 That's it! You can continue by reading the documentation for each module.

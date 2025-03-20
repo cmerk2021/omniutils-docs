@@ -20,6 +20,7 @@ export default defineConfig({
                 items: [
                     // Each item here is one entry in the navigation menu.
                     { label: 'Get Started', slug: 'guides/get-started' },
+                    { label: 'Configuration', slug: 'guides/config' },
                 ],
             },
             {
