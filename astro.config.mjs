@@ -9,6 +9,7 @@ export default defineConfig({
         title: 'OmniUtils',
         logo: {
             src: './src/assets/logo-svg.svg',
+            replacesTitle: true,
         },
         social: {
             github: 'https://github.com/cmerk2021/omniutils',
