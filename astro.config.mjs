@@ -7,6 +7,9 @@ import starlightThemeRapide from 'starlight-theme-rapide'
 export default defineConfig({
     integrations: [starlight({
         title: 'OmniUtils',
+        logo: {
+            src: './src/assets/logo-svg.svg',
+        },
         social: {
             github: 'https://github.com/cmerk2021/omniutils',
         },
