@@ -8,7 +8,8 @@ export default defineConfig({
     integrations: [starlight({
         title: 'OmniUtils',
         logo: {
-            src: './src/assets/logo-svg.svg',
+            dark: './src/assets/logo-dark.svg',
+            light: './src/assets/logo-light.svg',
             replacesTitle: true,
         },
         social: {
